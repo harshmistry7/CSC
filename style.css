@@ -237,7 +237,7 @@ nav ul li a:hover {
 }
 .flip-card-front{
     background-color: #f26440;
-    background-image: url(/csc/assets/img/events/2.jpg);
+    background-image: url(/csc/assests/img/events/2.jpg);
     background-size: cover;
     box-shadow: -30px 14px 54px 0px rgba(0, 0, 0, 0.07);
 }
