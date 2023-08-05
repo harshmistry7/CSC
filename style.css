@@ -381,7 +381,12 @@ nav .fa-solid{
 
 @media screen and (max-width:600px){
     #home{
-        background-image: url(/csc/assests/img/basic/bghm2.jpg);
+        width: 100%;
+        height: 100vh;
+        background-image: url(/csc/assets/img/basic/bghm2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
     .home-cnt h2{
         font-size: 30px;
