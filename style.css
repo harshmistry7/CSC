@@ -342,7 +342,7 @@ nav ul li a:hover {
     text-align: center;
 }
 /* ---------------------reisponsive----------------------------------- */
-@media screen and (max-width:767px){
+@media screen and (max-width:600px){
     #home{
         background-image: url(/csc/assests/img/basic/bghm2.jpg);
     }
