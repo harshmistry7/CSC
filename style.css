@@ -368,7 +368,10 @@ nav .fa-solid{
         top: 25px;
         left: 25px;
         cursor: pointer;
-    } 
+    }
+    nav fa-bars{
+        margin-right:2rem;
+    }
 }
 
 @media screen and (max-width:600px){
@@ -393,6 +396,9 @@ nav .fa-solid{
     .contact-cnt{
         display: flex;
         flex-direction: column;
+    }
+    .contact-map{
+        width:300;
     }
     .contact-det{
         padding-bottom: 1rem;
