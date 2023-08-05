@@ -52,6 +52,10 @@ nav {
     margin:0px;
     z-index: 10;
 }
+fa-solid{
+    margin-right: 2%;
+    font-size: 2rem;
+}
 .logo {
     width: 4rem;
     padding-left: 2%;
