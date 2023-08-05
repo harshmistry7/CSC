@@ -381,7 +381,7 @@ nav .fa-solid{
 
 @media screen and (max-width:600px){
     #home{
-        width: 100%;
+        width: 100vh;
         height: 100vh;
         background-image: url(/csc/assests/img/basic/bghm2.jpg);
         background-size: cover;
