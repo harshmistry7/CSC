@@ -369,7 +369,7 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
-    nav fa-bars{
+    nav .fa-bars{
         margin-right:2rem;
     }
 }
