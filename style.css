@@ -54,7 +54,7 @@ nav {
 }
 .logo {
     width: 4rem;
-    margin:0.2rem 2rem;
+    padding-left: 2%;
 }
 nav ul li {
     display:inline-flex;
@@ -80,6 +80,9 @@ nav ul li a:hover {
     border: 1px solid #fff;
     background-color: #3763f4;
     border-radius: 0.25rem;
+}
+nav .fa-solid{
+    display: none;
 }
 /* ---------------------home----------------------------------- */
 
@@ -342,6 +345,36 @@ nav ul li a:hover {
     text-align: center;
 }
 /* ---------------------reisponsive----------------------------------- */
+@media screen and (max-width:991px){
+    nav .fa-solid{
+        display: block;
+    }
+    nav{
+        margin-right: 0.25rem;
+    }
+    nav ul{
+        background: #01012b;
+        position: fixed;
+        top:0;
+        right: -250px;;
+        width:200px;
+        height: 100vh;
+        padding-top: 50px; 
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: flex;
+        flex-direction: ;
+        margin: 25px;
+    }
+    nav ul .fa-xmark{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    } 
+}
+
 @media screen and (max-width:600px){
     #home{
         background-image: url(/csc/assests/img/basic/bghm2.jpg);
