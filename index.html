@@ -11,18 +11,20 @@
     <title>CSC - Home</title>
 </head>
 <body>
-    <nav>
+    <div id="home">
+        <nav>
         <img class="logo" src="/csc/assests/img/basic/csc_logo.png">
-        <ul>
+        <ul id="sidemenu">
             <li><a href='#home'>HOME</a></li>
             <li><a href='#aboutus'>ABOUT US</a></li>
             <li><a href='#event'>EVENTS</a></li>
             <li><a href='#team'>TEAM</a></li>
             <li><a href='#contact'>CONTACT</a></li>
             <li class="joinus"><a href='#contact'>JOIN US</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
-    <div id="home">
         <div class="home-bg"></div>
         <div class="container">
             <div class="home-cnt">
@@ -195,6 +197,15 @@
     <div id="footer">
         &copy; CSC@ADIT | All Rights Reserved
     </div>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right='0';
+    }
+    function closemenu(){
+        sidemeu.style.right="-250px";
+    }
+</script> 
 </body>
 
 </html>
