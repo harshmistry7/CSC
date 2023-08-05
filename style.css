@@ -341,3 +341,31 @@ nav ul li a:hover {
 #footer{
     text-align: center;
 }
+/* ---------------------reisponsive----------------------------------- */
+@media screen and (max-width:767px){
+    #home{
+        background-image: url(/csc/assests/img/basic/bghm2.jpg);
+    }
+    .home-cnt h2{
+        font-size: 30px;
+    }
+    .about-cnt{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .team-cnt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-cnt{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-det{
+        padding-bottom: 1rem;
+    }
+    .contact-pg{
+        padding: 2rem 0rem;;
+    }
+}
