@@ -35,7 +35,7 @@ button:hover{
 #home{
     width: 100%;
     height: 100vh;
-    background-image: url(/csc/assests/img/basic/bghm.jpg);
+    background-image: url(/csc/assests/img/others/bghm.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -49,10 +49,11 @@ nav {
     width: 100%;
     background-color: #01012be1;
     top:0px;
-    margin:0px;
+    margin:0rem;
+    
     z-index: 10;
 }
-fa-solid{
+.fa-solid{
     margin-right: 2%;
     font-size: 2rem;
 }
@@ -76,9 +77,12 @@ nav ul li a {
     position: relative;
     padding: 0.25rem 0.5rem;
 }
+nav ul li a:active,
 nav ul li a:hover {
     border:1px solid #3763f4;
     border-radius: 0.94rem;
+    /* color: #3763f4; */
+    /* background-color: #3763f4 */
 }
 .joinus{
     border: 1px solid #fff;
@@ -122,9 +126,10 @@ nav .fa-solid{
 .about-txt{
     font-size: 15px;
 }
-/* .about-img {
-    width: 30%;
-} */
+.about-img img{
+    width: auto;
+    padding: 0 2rem;
+}
 /* ---------------------event----------------------------------- */
 .event-cnt .event-img{
     columns:3 250px;
@@ -242,7 +247,7 @@ nav .fa-solid{
 }
 .flip-card-front{
     background-color: #f26440;
-    background-image: url(/csc/assests/img/events/2.jpg);
+    background-image: url(/assets/img/events/2.jpg);
     background-size: cover;
     box-shadow: -30px 14px 54px 0px rgba(0, 0, 0, 0.07);
 }
@@ -296,9 +301,10 @@ nav .fa-solid{
 .contact-det i{
     color: #fff;
     padding: 0.5rem;
-    margin: 0.2rem 0;
+    margin: 1rem 0;
     border: 1px solid #fff;
     border-radius: 50%;
+    font-size: 30px;
 }
 .contact-det a{
     text-decoration: none;
@@ -317,6 +323,10 @@ nav .fa-solid{
     background-color: #ededed;
     border-radius: 0.25rem;
     margin: 0.25rem;
+}
+.contact-map iframe{
+    width: 400px;
+    height:300px;
 }
 .contact-pg{
     display: flex;
@@ -338,15 +348,17 @@ nav .fa-solid{
 }
 /* ---------------------footer----------------------------------- */
 #footer{
+    margin: 1rem 0;
     text-align: center;
 }
-/* ---------------------reisponsive----------------------------------- */
+
 @media screen and (max-width:991px){
     nav .fa-solid{
         display: block;
     }
     nav{
         margin-right: 0.25rem;
+        width: 100%;
     }
     nav ul{
         background: #01012b;
@@ -360,7 +372,7 @@ nav .fa-solid{
     }
     nav ul li{
         display: flex;
-        flex-direction: ;
+        flex-direction:column;
         margin: 25px;
     }
     nav ul .fa-xmark{
@@ -368,18 +380,28 @@ nav .fa-solid{
         top: 25px;
         left: 25px;
         cursor: pointer;
-    }
-    nav .fa-bars{
-        margin-right:2rem;
-    }
+    } 
+    
+   
 }
-
-@media screen and (max-width:600px){
+@media only screen and (max-width:600px){
+   
     #home{
+        width: 100%;
+        height: 100vh;
         background-image: url(/csc/assests/img/basic/bghm2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
+    }
+    .home-cnt{
+        padding-top: 5rem;
+
     }
     .home-cnt h2{
-        font-size: 30px;
+        font-size: 20px;
+
     }
     .about-cnt{
         display: flex;
@@ -397,13 +419,12 @@ nav .fa-solid{
         display: flex;
         flex-direction: column;
     }
-    .contact-map{
-        width:300;
-    }
-    .contact-det{
-        padding-bottom: 1rem;
+    .contact-map iframe{
+        width: 350px;
+        height:300px;
     }
     .contact-pg{
         padding: 2rem 0rem;;
     }
+    
 }
