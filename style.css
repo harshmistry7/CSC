@@ -327,7 +327,7 @@ nav .fa-solid{
 }
 .contact-map iframe{
     width: 400px;
-    height:300px;
+    height: 300px;
 }
 .contact-pg{
     display: flex;
@@ -421,8 +421,8 @@ nav .fa-solid{
         flex-direction: column;
     }
     .contact-map iframe{
-        width: 350px;
-        height:300px;
+        width: 300px;
+        height: 300px;
     }
     .contact-pg{
         padding: 2rem 0rem;;
