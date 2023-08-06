@@ -397,7 +397,7 @@ nav .fa-solid{
         
     }
     .home-cnt{
-        padding-top: 5rem;
+        padding-top: 7rem;
 
     }
     .home-cnt h2{
@@ -421,6 +421,7 @@ nav .fa-solid{
         flex-direction: column;
     }
     .contact-map iframe{
+        padding-top:1rem;
         width: 300px;
         height: 300px;
     }
